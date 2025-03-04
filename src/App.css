@@ -353,8 +353,7 @@ font-weight: 500;
   .body{
     grid-template-columns: 1fr;
     min-height: 100vh;
-    overflow-y: scroll;
-    column-gap: 0px;
+    overflow-y: auto;
     padding: 10px;
   }
   #title h1{
@@ -365,7 +364,7 @@ font-weight: 500;
     grid-template-columns: 1fr 1fr;
     max-height: 19rem;
     padding-bottom: 10px;
-    overflow-y: scroll;
+    overflow-y: auto;
   }
   .card{
     width: 100%;
@@ -394,13 +393,13 @@ font-weight: 500;
   }
   .confirm-btn{
     font-size: 0.8rem;
-    margin: 10px 80px;
+    margin: 10px 40px;
   }
   .side-bar{
     position: relative;
     bottom: 11rem;
-    max-height: 22vh;
-    overflow-y: scroll; 
+    max-height: 25vh;
+    overflow-y: auto; 
     min-height: fit-content;
   }
   .cart-item{
