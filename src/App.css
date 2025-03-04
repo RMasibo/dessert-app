@@ -229,23 +229,19 @@ font-weight: 500;
 
 .confirmed-item {
   padding-top: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
 }
 
 .confirmed-item h2{
   font-size: 0.8rem;
 }
 
-.confirmed-item h5{
-  font-size: 0.7rem;
-  font-weight: 500;
-  color: rgb(255, 47, 0);
-}
-
-.confirmed-item h4{
-  position: relative;
-  right: -18.5rem;
-  bottom: 1.5rem;
+.confirmed-item h3{
   color: black !important;
+  float: right;
+  font-size: 0.9rem;
 }
 
 .confirmed-desserts h4{
@@ -253,6 +249,12 @@ font-weight: 500;
  font-weight: 700;
  font-size: 1rem;
  padding: 10px 20px;
+}
+
+.confirmed-item span{
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: grey;
 }
 
 .new-order{

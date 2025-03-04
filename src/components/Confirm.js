@@ -27,7 +27,7 @@ export default class Confirm extends Component {
 												<div className="confirmed-item">
 													<h2>{dessert.name}</h2>
 													<h3>
-														{dessert.quantity} x ${dessert.amount}
+														{dessert.quantity} <span>x</span> ${dessert.amount}
 													</h3>
 												</div>
 											</div>
